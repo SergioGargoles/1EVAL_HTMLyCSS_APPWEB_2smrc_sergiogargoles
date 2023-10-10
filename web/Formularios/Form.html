@@ -7,17 +7,42 @@
 </head>
 <body>
     <form action="" method="get">
-        <p>Nombre <br> <input type="text" name="Nombre" placeholder="Tu nombre"></p>
-        <p>Calle<br>  <input type="text" placeholder="Nombre de la calle" name="Ocupación"></p>
-        <p>Fecha de la Cita <br> <input type="date" name="Fecha"></p>
-        <p>Hora (Mínimo 12H, máx 0H) <br> <input type="time" name="Hora"></p>
-        <p>DNI <br> <input type="text" max="9"></p>
+        <p>Nombre <br> <input type="text" name="Nombre" placeholder="Tu nombre"></p><br>
+        <p>Calle<br>  <input type="text" placeholder="Nombre de la calle" name="Ocupación"></p><br>
+        <p>Fecha de la Cita <br> <input type="date" name="Fecha"></p><br>
+        <p>Hora (Mínimo 12H, máx 0H) <br> <input type="time" name="Hora"></p><br>
+        <p>DNI <br> <input type="text" max="9"></p><br>
         <p>Alimentación <br> <input type="radio" name="Boton1">Vegano<br>
         <input type="radio" name="Boton2">Normal
-        </p>
+        </p><br>
         <p>Tarjeta de crédito <input type="password" name="Tarjeta"></p>
-        <p>Numerín especial <input type="text" name="numerin"></p>
-        <p>Opiniones <br> <textarea name="Opiniones" rows="10" cols="20" placeholder="Escriba aquí"></textarea></p>
+        <p>Numerín especial <input type="text" name="numerin"></p><br>
+        <p>Opiniones <br> <textarea name="Opiniones" rows="4" cols="30" placeholder="Escriba aquí"></textarea></p> <br>
+        <p> Nivel de red local (Si, No, Depende)
+            <input type="range" name="Rango"
+            min="1" max="3" list="lista-rango">
+            <datalist id="lista-rango">
+                <option value="2" label="2"></option>
+                <option value="4" label="4"></option>
+                <option value="6" label="6"></option>
+            </datalist>
+        </p><br>
+        <p> Qué odias más?
+            <select name="opciones">
+                <option>Madrid</option>
+                <option>Francia</option>
+                <option>L'Hospitalet de Llobregat</option>
+            </select>
+        </p><br>
+        <p></p>
+        <p>
+            <input type="submit" name="Enviar" value="Enviar">
+            <button type="reset" name="Restablecer" value="Restablecer">
+                <img src="5632370.png" alt="reset" width="50" height="50" style="vertical-align: middle;">
+            </button>
+        </p>
+       
+        </p>
     </form>
 </body>
 </html>
