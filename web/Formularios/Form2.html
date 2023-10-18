@@ -6,10 +6,39 @@
 </head>
 <body>
     <form action="get">
-     <input type="text" name="1" id="1" tabindex="4" placeholder="1">
+     <input type="text" name="1" id="1" tabindex="4" placeholder="1" readonly>
      <input type="text" name="1" id="1" tabindex="3" placeholder="2">
      <input type="text" name="1" id="1" tabindex="1" placeholder="3">
      <input type="text" name="1" id="1" tabindex="2" placeholder="4">
+    <p> tp <input type="text" name="texto1" placeholder="Pulsar a" accesskey="a">
+        <input type="text" name="texto1" placeholder="Pulsar b" accesskey="b">
+    </p>
+    <input type="button" value="No hago nada" onclick="mensaje ('Mentira')">
+
+    <script>
+        function mensaje(texto) {
+
+            alert(texto)
+        }
+    </script><br> <br>
+    Buscar: <input type="search" name="buscar" size="40">
+    URL: <input type="url" name="url" size="40">
+    Correo: <input type="email" name="Correo" size="40">
+    <br> <br>
+    Calculador de horoscopos
+    Semana  <input type="week" name="semanas">
+    Mes <input type="month" name="mes">
+    Hora <input type="time" name="hora">
+    <br> <br>
+    <label for="fotito"> Fotito</label>
+     <input type="file" name="fotito" value="image/*">
+    <br> <br>
+    <fieldset>
+        <legend>Redes?</legend>
+        <input type="radio" name="p1" value="1" id="a"><label for="a"> Si </label>
+        <input type="radio" name="p1" value="2" id="b"><label for="b"> Tao Pai Pai </label>
+        <input type="radio" name="p1" value="3" id="c"><label for="c"> Ru Paul </label>
+    </fieldset>
     </form>
 </body>
 </html>
