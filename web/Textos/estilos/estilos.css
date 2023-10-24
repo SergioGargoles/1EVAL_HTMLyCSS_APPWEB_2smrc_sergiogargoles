@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "sus";
+    src: url("../fuentes/mystery-quest.ttf");
+}
+p{
+    font-family: "sus";
+}

@@ -6,8 +6,9 @@
     border-style: dotted;
     border-width: 1px;
     */
-    border: gold dotted 3px;
+    border: peru dotted 3px;
     padding: 5px;
+    margin: 6px;
 }
 
 p.especial {
