@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            border: red 3px solid;
+            margin: 10 px;
+            padding: 10 px;
+            background-color: rgb(203, 167, 238);
+            text-align: center;
+        }
+        div + p{
+            color: thistle;
+        }
+        div address{
+            color: peru;
+        }
+        p ~ p {
+            text-align: right;
+        }
+        p.p1 {
+            color: turquoise;
+        }
+        p.p2 {
+            color: slategrey;
+        }
+        a:link {
+            color: violet;
+        }
+        a:visited {
+            color: teal;
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+        }
+        input:hover {
+            color: crimson;
+        }
+        input:active{
+            background-color: blueviolet;
+            color: paleturquoise;
+        }
+    </style>
+</head>
+<body bgcolor="">
+    <div>
+        <p> Nomorado </p>
+        <ul>
+            <li>Sus</li>
+        </ul>
+        <address> Algo aquí también escrito</address>
+    </div>
+    <p> morao</p>
+    <p>algo</p>
+    <p class="p1 p2"> Rojo o azul</p>
+    <p class="p2 p1">Azul o roojo</p>
+    <p class="p1"> azul</p>
+    <p class="p2"> alergia a la sal</p>
+    <a href="https://google.es">clickea</a>
+    <form action="proceso.php" method="get">
+        <input type="button" value="Pulsame">
+    </form>
+</body>
+</html>
