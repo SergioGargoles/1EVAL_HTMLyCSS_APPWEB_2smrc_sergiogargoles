@@ -13,51 +13,89 @@ div.nav-item {
     margin-right: 10%;
     color: white;
     background-color: grey;
+
 }
+
 nav{
     background-color: grey;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 1%;
+    top: 0;
+    position: sticky;
+    z-index: 5;
 
 }
 div.container{
     background-color: lightgreen;
-    
+    border: 2px black solid;
+    width: 80%;
+    height: 700px;
+    position: relative;
+    top: 50px;
+    left: 90px;
 }
 figure{
-    background-color: lightgreen;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px black solid;
+    width: 40%;
+    position: absolute;
+}
+figcaption{
+    background-color: white;
+    text-align: center;
 }
 
 .fixed-sidebar{
+    position: fixed;
     border: 2px black solid;
-    width: 20px;
-
+    width: 100px;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+    top: 40%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
 }
 
-div img{
-    width: 50px;
-    height: 50px;
+div.fixed-sidebar img{
+    width: 75px;
+    height: 75px;
+}
+
+div.fixed-sidebar ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+figure img{
+    width: 400px;
+    height: 300px;
 }
 
 #li1{
-
     z-index: 4;
+    top: 150px;
+    left: 200px;
 }
 
 #li2{
-
     z-index: 3;
+    top: 200px;
+    left: 250px;
+
 }
 
 #li3{
-    height: 20em;
-    width: 20em;
     z-index: 2;
+    top: 250px;
+    left: 300px;
 }
 
 #li4{
-    height: 20em;
-    width: 20em;
     z-index: 1;
+    top: 300px;
+    left: 350px;
 }
