@@ -1,0 +1,17 @@
+
+div.sidebar{
+    float: left;
+}
+
+div.container{
+    float: left;
+    position: absolute;
+}
+
+div.container header{
+
+}
+
+div nav{
+    display: inline;
+}
